@@ -8,7 +8,7 @@ import pro.sky.Kursovaya2.interfaceService.QuestionService;
 import java.util.*;
 @Component
 public class JavaQuestionService implements QuestionService {
-    private final Collection<Question> questions = new HashSet<>();
+    final Collection<Question> questions = new HashSet<>();
 
 
     @Override
